@@ -1,0 +1,402 @@
+VERSION 5.00
+Begin VB.Form mainform 
+   BorderStyle     =   0  'None
+   Caption         =   "mainform"
+   ClientHeight    =   14085
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   27270
+   ControlBox      =   0   'False
+   FillColor       =   &H00C000C0&
+   LinkTopic       =   "Form2"
+   MaxButton       =   0   'False
+   MDIChild        =   -1  'True
+   MinButton       =   0   'False
+   Moveable        =   0   'False
+   Picture         =   "mainform.frx":0000
+   ScaleHeight     =   14085
+   ScaleMode       =   0  'User
+   ScaleWidth      =   27270
+   ShowInTaskbar   =   0   'False
+   Begin VB.Image Image8 
+      Height          =   2505
+      Left            =   17880
+      Picture         =   "mainform.frx":22ED8D
+      Stretch         =   -1  'True
+      Top             =   7320
+      Width           =   2505
+   End
+   Begin VB.Image Image7 
+      Height          =   2505
+      Left            =   13560
+      Picture         =   "mainform.frx":235425
+      Stretch         =   -1  'True
+      Top             =   7320
+      Width           =   2505
+   End
+   Begin VB.Image Image4 
+      Height          =   2505
+      Left            =   18000
+      Picture         =   "mainform.frx":24F5BC
+      Stretch         =   -1  'True
+      Top             =   2880
+      Width           =   2505
+   End
+   Begin VB.Image Image1 
+      Height          =   2505
+      Left            =   3000
+      Picture         =   "mainform.frx":25213B
+      Stretch         =   -1  'True
+      Top             =   2880
+      Width           =   2505
+   End
+   Begin VB.Image Image3 
+      Height          =   2505
+      Left            =   13680
+      Picture         =   "mainform.frx":25ABD9
+      Stretch         =   -1  'True
+      Top             =   2880
+      Width           =   2505
+   End
+   Begin VB.Image Image2 
+      Height          =   2505
+      Left            =   8400
+      Picture         =   "mainform.frx":25FB7E
+      Stretch         =   -1  'True
+      Top             =   2880
+      Width           =   2505
+   End
+   Begin VB.Image Image6 
+      Height          =   2505
+      Left            =   8400
+      Picture         =   "mainform.frx":262767
+      Stretch         =   -1  'True
+      Top             =   7320
+      Width           =   2505
+   End
+   Begin VB.Image Image5 
+      Height          =   2505
+      Left            =   3000
+      Picture         =   "mainform.frx":263903
+      Stretch         =   -1  'True
+      Top             =   7320
+      Width           =   2505
+   End
+   Begin VB.Shape Shape2 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00C0C000&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   2520
+      Top             =   2520
+      Width           =   2625
+   End
+   Begin VB.Shape Shape7 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00C0C000&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   2520
+      Top             =   6960
+      Width           =   2625
+   End
+   Begin VB.Shape Shape6 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00FFFF00&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   7920
+      Top             =   2520
+      Width           =   2505
+   End
+   Begin VB.Shape Shape5 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00FFFF80&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   13200
+      Top             =   2520
+      Width           =   2505
+   End
+   Begin VB.Shape Shape4 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00FFFF00&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   7920
+      Top             =   6960
+      Width           =   2625
+   End
+   Begin VB.Shape Shape3 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00FFFFC0&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   17520
+      Top             =   2520
+      Width           =   2505
+   End
+   Begin VB.Shape Shape10 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00FFFFC0&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   17400
+      Top             =   6960
+      Width           =   2505
+   End
+   Begin VB.Shape Shape8 
+      BorderStyle     =   0  'Transparent
+      FillColor       =   &H00FFFF80&
+      FillStyle       =   0  'Solid
+      Height          =   2505
+      Left            =   13080
+      Top             =   6960
+      Width           =   2505
+   End
+End
+Attribute VB_Name = "mainform"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+
+Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image1.Height <> 2505 Or Image2.Height <> 2505 Or Image3.Height <> 2505 Or Image4.Height <> 2505 Or Image5.Height <> 2505 Or Image6.Height <> 2505 Or Image7.Height <> 2505 Or Image8.Height <> 2505 Then
+Image1.Height = 2505
+Image1.Width = 2505
+Image2.Height = 2505
+Image2.Width = 2505
+Image3.Height = 2505
+Image3.Width = 2505
+Image4.Height = 2505
+Image4.Width = 2505
+Image5.Height = 2505
+Image5.Width = 2505
+Image6.Height = 2505
+Image6.Width = 2505
+Image7.Height = 2505
+Image7.Width = 2505
+Image8.Height = 2505
+Image8.Width = 2505
+End If
+End Sub
+
+Private Sub Image1_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image1.Height <> 2800 Then
+Image1.Height = 2800
+Image1.Width = 2800
+Image2.Height = 2405
+Image2.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+
+
+Private Sub image1_click()
+doctor1.Top = 0
+doctor1.Left = 0
+Unload Me
+doctor1.Show
+End Sub
+
+
+Private Sub Image2_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image2.Height <> 2800 Then
+Image2.Height = 2800
+Image2.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+
+Private Sub image2_click()
+employee1.Timer1.Enabled = True
+employee1.Top = 0
+employee1.Left = 0
+Unload Me
+employee1.Show
+End Sub
+
+Private Sub Image3_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image3.Height <> 2800 Then
+Image3.Height = 2800
+Image3.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image2.Height = 2405
+Image2.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+Private Sub image3_click()
+supplier1.Left = 0
+supplier1.Top = 0
+supplier1.Show
+Unload Me
+End Sub
+
+Private Sub Image4_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image4.Height <> 2800 Then
+Image4.Height = 2800
+Image4.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image2.Height = 2405
+Image2.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+Private Sub image4_click()
+medicine2.Top = 0
+medicine2.Left = 0
+medicine2.Show
+Unload Me
+End Sub
+
+Private Sub Image5_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image5.Height <> 2800 Then
+Image5.Height = 2800
+Image5.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image2.Height = 2405
+Image2.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+Private Sub image5_click()
+batch1.Top = 0
+batch1.Left = 0
+batch1.Show
+Unload Me
+End Sub
+
+Private Sub Image6_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image6.Height <> 2800 Then
+Image6.Height = 2800
+Image6.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image2.Height = 2405
+Image2.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+Private Sub image6_click()
+'Form2.Show 'bills
+'Unload Me
+End Sub
+Private Sub Image7_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image7.Height <> 2800 Then
+Image7.Height = 2800
+Image7.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image2.Height = 2405
+Image2.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image8.Height = 2405
+Image8.Width = 2405
+End If
+End Sub
+Private Sub image7_click()
+'Form3.Show
+'report
+End Sub
+Private Sub Image8_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+If Image8.Height <> 2800 Then
+Image8.Height = 2800
+Image8.Width = 2800
+Image1.Height = 2405
+Image1.Width = 2405
+Image2.Height = 2405
+Image2.Width = 2405
+Image3.Height = 2405
+Image3.Width = 2405
+Image4.Height = 2405
+Image4.Width = 2405
+Image5.Height = 2405
+Image5.Width = 2405
+Image6.Height = 2405
+Image6.Width = 2405
+Image7.Height = 2405
+Image7.Width = 2405
+End If
+End Sub
+Private Sub image8_click()
+Unload Me
+LoginForm.Top = 0
+LoginForm.Left = 0
+LoginForm.Show
+End Sub
+
+
+

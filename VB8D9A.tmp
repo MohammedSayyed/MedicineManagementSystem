@@ -1,0 +1,36 @@
+VERSION 5.00
+Begin VB.Form loginForm 
+   Caption         =   "LoginForm"
+   ClientHeight    =   9705
+   ClientLeft      =   60
+   ClientTop       =   405
+   ClientWidth     =   14670
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   9705
+   ScaleWidth      =   14670
+   StartUpPosition =   3  'Windows Default
+   Begin VB.OptionButton Option2 
+      Caption         =   "Option2"
+      Height          =   495
+      Left            =   2520
+      TabIndex        =   1
+      Top             =   3120
+      Width           =   1215
+   End
+   Begin VB.OptionButton Option1 
+      Caption         =   "Option1"
+      Height          =   495
+      Left            =   3120
+      TabIndex        =   0
+      Top             =   1800
+      Width           =   1335
+   End
+End
+Attribute VB_Name = "loginForm"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub Form_Load()
+
+End Sub
